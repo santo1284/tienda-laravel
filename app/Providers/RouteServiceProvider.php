@@ -11,7 +11,7 @@ class RouteServiceProvider extends ServiceProviderBase
     /**
      * Where to redirect users after login/registration.
      */
-    public const HOME = '/';
+    public const HOME = '/home';
 
     public function boot(): void
     {
