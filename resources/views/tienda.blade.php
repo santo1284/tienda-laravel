@@ -1,5 +1,5 @@
 @extends('layouts.template-frontend')
 
 @section('contenido')
-    <livewire:product-search />
+    {{-- Aquí puedes meter contenido dinámico si quieres luego --}}
 @endsection
