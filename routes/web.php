@@ -1,13 +1,4 @@
     <?php
-
-        use Illuminate\Support\Facades\Route;
-        use Illuminate\Support\Facades\Auth;
-        use App\Http\Controllers\Auth\RegisteredUserController;
-
-    // Ruta pública principal
-    Route::view('/', 'tienda')->name('tienda');
-
-
     Route::post('/logout', function () {
     Auth::logout();
     return redirect('/');
